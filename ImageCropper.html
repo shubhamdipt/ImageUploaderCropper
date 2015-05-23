@@ -7,21 +7,7 @@
 <link href="files/bootstrap.min.css" rel="stylesheet">
 <link href="files/cropper.min.css" rel="stylesheet">
 <link href="files/main.css" rel="stylesheet">
-<!--
-<script type="text/javascript">
-    function readURL(input) {
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
 
-            reader.onload = function (e) {
-                $('#blah').attr('src', e.target.result);
-            }
-
-            reader.readAsDataURL(input.files[0]);
-        }
-    }
-</script>
--->
 </head>
 
 
@@ -83,36 +69,7 @@
 	    <div class="loading" aria-label="Loading" role="img" tabindex="-1"></div>
  	</div>
 
-<!--
-<img id="myImage" onclick="changeImage()" src="files/new.jpg" width="480" height="300">
 
-
-
-<script>
-function changeImage() {
-    var image = document.getElementById('myImage');
-    if (image.src.match("second")) {
-        image.src = "files/new.jpg";
-    } else {
-        image.src = "files/second_pic.jpg";
-    }
-}
-</script>
-
-<form id="form1" runat="server" action="files/upload.php" method="post" enctype="multipart/form-data">
-	Select image to upload:
-    <input type='file' onchange="readURL(this);" name="fileToUpload" id="fileToUpload"/>
-    <img id="blah" src="files/blank.jpg" alt="your image" width="200" height="200"/>
-    <input type="submit" value="Upload Image" name="submit">
-</form>
-
-
-<form action="upload.php" method="post" enctype="multipart/form-data">
-    Select image to upload:
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Upload Image" name="submit">
-</form>
--->
 
 
 
